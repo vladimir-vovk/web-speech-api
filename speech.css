@@ -1,0 +1,21 @@
+#start-dialog {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#section-dialog {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#section-dialog > div {
+    line-height: 1.5rem;
+}
+
+#voice-result {
+    padding-left: 2rem;
+}
+
+#section-recognition-results {
+    display: none;
+}

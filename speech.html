@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width">
+        <title>Sample dialog</title>
+        <link rel="stylesheet" type="text/css" href="speech.css">
+    </head>
+    <body>
+        <section>
+            <p style="color: coral;" >Please allow using microphone for this page.</p>
+            <label for="voice-select">Select voice:</label>
+            <select id="voice-select"></select>
+            <button id="start-dialog" style="display: block;">Start dialog</button>
+        </section>
+        <section id="section-dialog">
+        </section>
+        <section id="section-recognition-results">
+            <label for="voice-result"><strong>You said:</strong></label>
+            <p id="voice-result"></p>
+            <button id="button-listen-again" disabled>Say it again</button>
+            <button id="button-go-next" disabled>Go next</button>
+        </section>
+
+    </body>
+
+    <script src="speech.js"></script>
+</html>
+
